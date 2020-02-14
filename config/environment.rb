@@ -7,17 +7,17 @@ Rails.application.initialize!
 ActionMailer::Base.smtp_settings = {
 :enabled => true,
 
-:address => 'smtp.sendgrid.net',
+:address => 'smtp.gmail.com',
 
-:port => '587',
+:port => 587,
 
-:authentication => :login,
+:authentication => :plain,
 
-:user_name => 'app161428558@heroku.com',
+:user_name => 'meenakshi.ravichandran@railsdata.com',
 
-:password => '11le2hqu0689',
+:password => 'Meena@14',
 
-:domain => 'heroku.com',
+:domain => 'gmail.com',
 
 :enable_starttls_auto => true,
 
