@@ -12,6 +12,10 @@ ActionMailer::Base.smtp_settings = {
 
 :authentication => :plain,
 
+:ssl => true,
+
+:authentication => :login,
+
 :user_name => ENV['SENDGRID_USERNAME'],
 
 :password => ENV['SENDGRID_PASSWORD'],
